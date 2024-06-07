@@ -15,29 +15,61 @@
   <body>
     <nav class="d-flex justify-content-around m-2 .bg-light">
       <div class="text-uppercase fw-bold">Portfolio</div>
-      <div>
+
+      <div class="firstmenu" onclick="toggleMenu()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M9 19v-2h12v2zm0-6v-2h12v2zm0-6V5h12v2zM5 20q-.825 0-1.412-.587T3 18t.588-1.412T5 16t1.413.588T7 18t-.587 1.413T5 20m0-6q-.825 0-1.412-.587T3 12t.588-1.412T5 10t1.413.588T7 12t-.587 1.413T5 14m0-6q-.825 0-1.412-.587T3 6t.588-1.412T5 4t1.413.588T7 6t-.587 1.413T5 8"
+          />
+        </svg>
+        <!-- <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div> -->
+      </div>
+
+      <div class="navright">
         <ul class="d-flex justify-content-around gap-3">
-          <a
-            href="#arti1"
-            class="hover-underline text-decoration-none text-reset"
-            >Home</a
-          >
-          <a
-            href="#about"
-            class="hover-underline text-decoration-none text-reset"
-            >About</a
-          >
-          <a href="#Edu" class="hover-underline text-decoration-none text-reset"
-            >Education</a
-          >
-          <a
-            href="#SkillsAndExperience"
-            class="hover-underline text-decoration-none text-reset"
-            >Skills & Experience</a
-          >
-          <a href="#Contact" class="hover-underline text-decoration-none text-reset"
-            >Contact</a
-          >
+          <li>
+            <a
+              href="#arti1"
+              class="hover-underline text-decoration-none text-reset"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="hover-underline text-decoration-none text-reset"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Edu"
+              class="hover-underline text-decoration-none text-reset"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a
+              href="#SkillsAndExperience"
+              class="hover-underline text-decoration-none text-reset"
+              >Skills & Experience</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Contact"
+              class="hover-underline text-decoration-none text-reset"
+              >Contact</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -165,20 +197,20 @@
       <img class="rei" src="./photo/rei-ayanami.png" alt="" />
       <div id="About2">
         <h1>About Me</h1>
-        <p class="lh-base fs-5">Hello!I'm Aung Kaung Satt.</p>
-        <p class="lh-base fs-5">
+        <p class="">Hello!I'm Aung Kaung Satt.</p>
+        <p class="">
           I was born in 26<sup>th</sup> November 2000 and currently living in
           SaitamaKen(埼玉県).
         </p>
-        <p class="lh-base fs-5">
+        <p class="">
           I am
           <span>trustworthy, creative, and an effective communicator. </span>
         </p>
-        <p class="lh-base fs-5">
+        <p class="">
           I fondly anticipate working in a challenging yet rewarding
           organization to attain its visions for personal growth.
         </p>
-        <p class="lh-base fs-5">For More Info, Check My CV Here!</p>
+        <p class="">For More Info, Check My CV Here!</p>
         <a
           class="hellobtn btn btn-primary text-decoration-none border border-0 rounded-pill d-flex justify-content-center align-items-center"
           href=""
@@ -189,91 +221,95 @@
 
     <div
       id="Edu"
-      class="vh-100 d-flex justify-content-evenly align-items-center  position-relative photobackground"
+      class="vh-100 d-flex justify-content-evenly align-items-center position-relative photobackground"
     >
-      <section id="Education" class="openingstyle">
-        <h1>Education</h1>
-        <div class="my-4"></div>
-        <div class="d-flex position-relative">
-          <div class="smallarrow ps-1">2017</div>
-          <div class="squarearrow"></div>
-          <div>
-            <div id="circle"></div>
-            <div id="line"></div>
+      <div
+        id="Edu2"
+        class="vh-100 d-flex justify-content-evenly align-items-center position-relative photobackground"
+      >
+        <section id="Education" class="openingstyle">
+          <h1>Education</h1>
+          <div class="my-4"></div>
+          <div class="d-flex position-relative">
+            <div class="smallarrow ps-1">2017</div>
+            <div class="squarearrow"></div>
+            <div>
+              <div id="circle"></div>
+              <div id="line"></div>
+            </div>
+            <div class="naiyo lh-base fs-5">高校卒業</div>
           </div>
-          <div class="naiyo lh-base fs-5">高校卒業</div>
-        </div>
-        <div class="my-4"></div>
-        <div class="d-flex position-relative">
-          <div class="smallarrow ps-1">2017</div>
-          <div class="squarearrow"></div>
-          <div>
-            <div id="circle"></div>
-            <div id="line"></div>
+          <div class="my-4"></div>
+          <div class="d-flex position-relative">
+            <div class="smallarrow ps-1">2017</div>
+            <div class="squarearrow"></div>
+            <div>
+              <div id="circle"></div>
+              <div id="line"></div>
+            </div>
+            <div class="naiyo lh-base fs-5">
+              East Yangon University (English Specialization) 入学
+            </div>
           </div>
-          <div class="naiyo lh-base fs-5">
-            East Yangon University (English Specialization) 入学
+          <div class="my-4"></div>
+          <div class="d-flex position-relative">
+            <div class="smallarrow ps-1">2018</div>
+            <div class="squarearrow"></div>
+            <div>
+              <div id="circle"></div>
+              <div id="line"></div>
+            </div>
+            <div class="naiyo lh-base fs-5">
+              Metro IT and Japanese Language Centre 入学
+            </div>
           </div>
-        </div>
-        <div class="my-4"></div>
-        <div class="d-flex position-relative">
-          <div class="smallarrow ps-1">2018</div>
-          <div class="squarearrow"></div>
-          <div>
-            <div id="circle"></div>
-            <div id="line"></div>
+          <div class="my-4"></div>
+          <div class="d-flex position-relative">
+            <div class="smallarrow ps-1">2022</div>
+            <div class="squarearrow"></div>
+            <div>
+              <div id="circle"></div>
+              <div id="line"></div>
+            </div>
+            <div class="naiyo lh-base fs-5">
+              Metro IT and Japanese Language Centre 卒業
+            </div>
           </div>
-          <div class="naiyo lh-base fs-5">
-            Metro IT and Japanese Language Centre 入学
+          <div class="my-4"></div>
+          <div class="d-flex position-relative">
+            <div class="smallarrow ps-1">2024</div>
+            <div class="squarearrow"></div>
+            <div>
+              <div id="circle"></div>
+              <div id="line"></div>
+            </div>
+            <div class="naiyo lh-base fs-5">
+              East Yangon University (English Specialization) 3rd Year
+            </div>
           </div>
-        </div>
-        <div class="my-4"></div>
-        <div class="d-flex position-relative">
-          <div class="smallarrow ps-1">2022</div>
-          <div class="squarearrow"></div>
-          <div>
-            <div id="circle"></div>
-            <div id="line"></div>
-          </div>
-          <div class="naiyo lh-base fs-5">
-            Metro IT and Japanese Language Centre 卒業
-          </div>
-        </div>
-        <div class="my-4"></div>
-        <div class="d-flex position-relative">
-          <div class="smallarrow ps-1">2024</div>
-          <div class="squarearrow"></div>
-          <div>
-            <div id="circle"></div>
-            <div id="line"></div>
-          </div>
-          <div class="naiyo lh-base fs-5">
-            East Yangon University (English Specialization) 3rd Year
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <div id="twophoto" class="openingstyle">
-        <div
-          class="overflow-hidden pictureplacing d-flex position-absolute justify-content-center align-items-center openingstyle"
-        >
-          <img
-            class="picture rounded-circle shadow-4-strong"
-            src="photo/EYUSymbol.jpg"
-          />
-        </div>
+        <div id="twophoto" class="openingstyle">
+          <div
+            class="overflow-hidden pictureplacing d-flex position-absolute justify-content-center align-items-center openingstyle"
+          >
+            <img
+              class="picture rounded-circle shadow-4-strong"
+              src="photo/EYUSymbol.jpg"
+            />
+          </div>
 
-        <div
-          class="overflow-hidden pictureplacing2 position-absolute d-flex justify-content-center align-items-center openingstyle"
-        >
-          <img
-            class="picture rounded-circle shadow-4-strong"
-            src="photo/MetroSymbool.png"
-          />
+          <div
+            class="overflow-hidden pictureplacing2 position-absolute d-flex justify-content-center align-items-center openingstyle"
+          >
+            <img
+              class="picture rounded-circle shadow-4-strong"
+              src="photo/MetroSymbool.png"
+            />
+          </div>
         </div>
       </div>
     </div>
-
     <div
       id="SkillsAndExperience"
       class="d-flex align-items-center photobackground vh-100"
@@ -432,8 +468,11 @@
         >
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
-  <footer class="" style="height: 50px;">
-    <p class="lh-base text-center mt-3 ">All Rights Reserved. © 2024 Aung Kaung Satt</p>
+  <footer class="" style="height: 50px">
+    <p class="lh-base text-center mt-3">
+      All Rights Reserved. © 2024 Aung Kaung Satt
+    </p>
   </footer>
 </html>
